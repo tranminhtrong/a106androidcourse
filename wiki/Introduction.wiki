@@ -1,0 +1,9 @@
+#summary One-sentence summary of this page.
+
+= Giới thiệu=
+
+Đây là trang cung cấp tài liệu cũng như mã nguồn của các ví dụ được giảng dạy trong môn "Phát triển ứng dụng smartphone". Giáo trình được tổng hợp, biên soạn từ nhiều nguồn khác nhau bởi:
+Chủ biên: ThS. Nguyễn Kim Long
+nklong@hoasen.edu.vn
+Biên soạn: Lê Đức Huy
+leduchuy89vn@gmail.com

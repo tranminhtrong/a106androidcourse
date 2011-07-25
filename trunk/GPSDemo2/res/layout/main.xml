@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<com.google.android.maps.MapView
+		android:id="@+id/mapView" 
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" 
+		android:enabled="true"
+		android:clickable="true" 
+		android:apiKey="0GeUo3kzF6bwW_K_5GLA810_rY5Egv-UUA4S5Ag" />
+	<!-- <Button android:id="@+id/buttonSearch" android:layout_height="wrap_content" android:layout_toRightOf="@+id/mapView" android:text="Button" android:layout_width="wrap_content" android:layout_alignTop="@+id/mapView"></Button> -->
+
+	<EditText android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:imeActionLabel="Find"
+		android:imeOptions="actionSearch" android:id="@+id/address"
+		android:hint="@string/location_name_hint"
+		android:layout_alignParentLeft="true"
+		android:layout_toLeftOf="@+id/buttonSearch" android:singleLine="true">
+	</EditText>
+	
+	<Button android:id="@+id/buttonSearch"
+		android:text="@string/search"
+		android:layout_width="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_height="wrap_content">	
+	</Button>
+	
+	<!-- hold the two zoom controls -->
+	<ZoomControls android:id="@+id/zoom"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_alignParentRight="true">	
+	</ZoomControls>
+</RelativeLayout>
+
+<!-- <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+</LinearLayout> -->

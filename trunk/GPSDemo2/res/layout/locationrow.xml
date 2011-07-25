@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:id="@+id/mainlayout">
+	<TextView android:id="@+id/locationname" android:text="AB"
+		android:layout_alignLeft="@+id/mainlayout" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/locationaddress" android:text="ABCD"
+		android:layout_alignParentRight="true" android:layout_toRightOf="@+id/locationname"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout> -->
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:id="@+id/MainLayout">
+	<TextView android:id="@+id/EmployeeName"
+		android:layout_alignLeft="@id/MainLayout" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/EmployeeDesignation"
+		android:layout_alignParentRight="true" android:layout_toRightOf="@id/EmployeeName"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout> -->
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextView android:id="@+id/locationname"
+	android:text="ABCD"
+		android:layout_alignParentLeft="true"
+		 android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<TextView android:id="@+id/locationaddress"
+		android:text="ABC"
+		android:layout_toRightOf="@+id/locationname"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</RelativeLayout> -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<TextView android:id="@+id/locationname" android:text="ABCD"
+	android:layout_width="wrap_content"
+	android:textSize="20dip" 
+	android:layout_marginLeft="5dip"
+	android:layout_marginTop="5dip"
+	android:layout_height="28px" android:textStyle="bold" android:layout_weight="1"/>
+	
+	<TextView android:id="@+id/locationaddress" android:text="ABCD"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:textSize="15dip" 
+	android:layout_marginLeft="5dip"
+	android:layout_marginBottom="5dip" android:layout_weight="1"/>
+	
+	
+	
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:title="@string/direction" android:id="@+id/direction"
+		android:icon="@drawable/directions"></item>
+	<item android:id="@+id/mapmode" android:title="@string/mapmode"
+		android:icon="@drawable/mapmode">
+		<menu>
+			<item android:title="Street" android:id="@+id/street"></item>
+			<item android:id="@+id/satellite" android:title="Satellite"></item>
+		</menu>
+	</item>
+	<item android:title="@string/currentlocation" android:id="@+id/currentlocation"
+		android:icon="@drawable/currentlocation"></item>
+	<item android:title="@string/coordinate" android:id="@+id/coordinate"
+		android:icon="@drawable/coordinate"></item>
+	<item android:id="@+id/savelocation" android:title="@string/savelocation"
+		android:icon="@drawable/save"></item>
+	<item android:title="@string/viewsavelist" android:id="@+id/viewsavelist"
+		android:icon="@drawable/list"></item>
+</menu>

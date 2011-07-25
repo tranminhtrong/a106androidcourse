@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+	  <TextView
+	  	android:id="@+id/channelTitleTextView"
+	  	android:text="Channel title:"
+	  	android:textSize="18dp"
+	  	android:layout_height="wrap_content"
+	  	android:layout_width="fill_parent">
+	  </TextView>
+	  
+	  <EditText
+	  	android:id="@+id/channelTitleEditText"
+	  	android:layout_height="40dp"
+	  	android:layout_width="fill_parent">
+	  </EditText>
+	  
+	  <TextView
+	  	android:id="@+id/channelURLTextView"
+	  	android:text="Channel URL:"
+	  	android:textSize="18dp"
+	  	android:layout_height="wrap_content"
+	  	android:layout_width="fill_parent">
+	  </TextView>
+	  
+	  <EditText
+	  	android:id="@+id/channelURLEditText"
+	  	android:layout_height="40dp"
+	  	android:layout_width="fill_parent">
+	  </EditText>
+	  
+	  <LinearLayout
+	  	android:orientation="horizontal"
+	  	android:layout_height="wrap_content"
+	  	android:layout_width="fill_parent"
+	  	android:layout_margin="10dp">
+	  	
+	  	<Button
+	  		android:id="@+id/saveChannelBtn"
+	  		android:text="Save channel"
+	  		android:textSize="18dp"
+	  		android:layout_height="wrap_content"
+	  		android:layout_width="fill_parent"
+	  		android:layout_weight="0.5"
+	  		android:onClick="saveChannelBtnTouched">
+	  	</Button>
+	  
+	  	<Button
+	  		android:id="@+id/backBtn"
+	  		android:text="Back"
+	  		android:textSize="18dp"
+	  		android:layout_height="wrap_content"
+	  		android:layout_width="fill_parent"
+	  		android:layout_weight="0.5"
+	  		android:onClick="backBtnTouched">
+	  	</Button>
+	  
+	  </LinearLayout>
+	  
+	  
+  
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">GPS Demo</string>
+    <string name="app_name">GPS Demo</string>
+    
+    <string name="location_name_hint">Enter location name...</string>
+    <string name="latitude_hint">Enter a latitude...</string>
+    <string name="longitude_hint">Enter a longitude...</string>
+	<string name="search">Search</string>
+	<string name="currentlocation">My location</string>
+	<string name="locationinfo">Location Detail</string>
+	<string name="viewsavelist">View all</string>
+	<string name="clear">Clear</string>
+	<string name="showme">Show Me</string>
+	<string name="latitude">Latitude</string>
+	<string name="longitude">Longitude</string>
+	<string name="coordinate">Coordinate</string>
+	<string name="mapsetting">Map setting</string>
+	<string name="direction">Directions</string>
+	<string name="mapmode">Map mode</string>
+	<string name="save">Save</string>
+	<string name="cancel">Cancel</string>
+	<string name="showdirection">Show direction</string>
+	<string name="lng_example">106.65532960</string>
+	<string name="lat_example">10.78037130</string>	
+	<string name="locationlist">Location list saved</string>
+	<string name="savelocation">Save location</string>
+</resources>

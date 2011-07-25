@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal">
+	<AbsoluteLayout
+		android:id="@+id/main"
+	    android:layout_width="320dp"
+	    android:layout_height="320dp"
+	    >
+	</AbsoluteLayout>
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="0.5"
+		android:orientation="horizontal">
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_weight="0.5">
+			<Button
+				android:id="@+id/resetBtn"
+				android:text="Reset game"
+				android:textStyle="bold"
+				android:textSize="16dp"
+				android:layout_width="120dp"
+				android:onClick="batDauChoi"
+				android:layout_height="wrap_content">
+			</Button>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:gravity="center_vertical|center_horizontal"
+			android:layout_weight="0.5">
+			<Button
+				android:id="@+id/startBtn"
+				android:text="Bắt đầu chơi"
+				android:onClick="tronGame"
+				android:textSize="16dp"
+				android:textStyle="bold"
+				android:layout_width="120dp"
+				android:layout_height="wrap_content">
+			</Button>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

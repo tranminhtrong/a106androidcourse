@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="hello2">ABC</string>
+    <string name="app_name">HelloWorld</string>
+    
+    <string name="label1">So thu 1:</string>
+    <string name="label2">So thu 2:</string>
+    
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="8dp">
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#ffffff" 
+		android:text="Màu Sắc Yêu Thích Của Bạn Là:"/>
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#666666"
+		android:textSize="72sp"
+		android:textStyle="bold"
+		android:text="RED"
+		android:id="@+id/labelRed" />
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#666666"
+		android:textSize="72sp"
+		android:textStyle="bold"
+		android:text="GREEN"
+		android:id="@+id/labelGreen" />
+	<TextView 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textColor="#666666"
+		android:textSize="72sp"
+		android:textStyle="bold"
+		android:text="BLUE"
+		android:id="@+id/labelBlue" />
+	<Button
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:id="@+id/pickbutton"
+		android:onClick="buttonClickHandler" 
+		android:text="Lựa Chọn Màu Yêu Thích"/>
+</LinearLayout>

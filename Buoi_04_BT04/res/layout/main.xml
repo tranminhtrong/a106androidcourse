@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:text="Mời Nhập số phần tử cần hiển thị" android:id="@+id/textView1" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </TextView>
+    
+    <EditText android:text="EditText" android:id="@+id/edtNhap" 
+    android:layout_height="wrap_content" android:layout_width="match_parent">
+    </EditText>
+    
+    <CheckBox android:text="Hiển Thị Từng Dòng" android:id="@+id/cbxHienThi" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </CheckBox>
+    <Button android:text="Hiển Thị" android:id="@+id/btnHienThi" 
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    </Button>
+    <EditText android:text="" android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/edtKetQua" android:singleLine="false">
+    </EditText>
+</LinearLayout>
+

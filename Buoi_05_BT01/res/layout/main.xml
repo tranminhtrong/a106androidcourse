@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView
+    	android:text="Điểm toán:" 
+    	android:layout_width="fill_parent" 
+    	android:textSize="18dp"
+    	android:layout_height="wrap_content">
+    </TextView>
+    <EditText 
+    	android:id="@+id/edtDiemToan"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+    	android:text="Điểm lý:" 
+    	android:layout_width="fill_parent" 
+    	android:textSize="18dp"
+    	android:layout_height="wrap_content">
+    </TextView>
+    <EditText 
+    	android:id="@+id/edtDiemLy"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    </EditText>
+    <TextView
+    	android:text="Điểm hoá:" 
+    	android:layout_width="fill_parent" 
+    	android:textSize="18dp"
+    	android:layout_height="wrap_content">
+    </TextView>
+    <EditText 
+    	android:id="@+id/edtDiemHoa"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    </EditText>
+    <Button 
+    	android:id="@+id/btnNhapDiem" 
+    	android:text="Nhập điểm" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+    <Button 
+    	android:id="@+id/btnXetHocLuc" 
+    	android:text="Xét học lực" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content">
+    </Button>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" 
+  android:orientation="vertical">
+    <EditText android:layout_width="fill_parent" android:editable="true" android:layout_height="80dp" android:id="@+id/editText" android:layout_gravity="top" android:fitsSystemWindows="true" android:gravity="top"></EditText>
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="" android:id="@+id/TextView02" android:layout_height="wrap_content"></TextView>
+            <TextView android:layout_width="wrap_content" android:text="" android:id="@+id/TextView01" android:layout_height="wrap_content"></TextView>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button02" android:layout_height="wrap_content" android:text="On"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button01" android:layout_height="wrap_content" android:text="Off"></Button>
+            <Button android:layout_width="64dp" android:id="@+id/button1" android:layout_height="wrap_content" android:textSize="22dp" android:text="C" android:onClick="xoaManHinh"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button09" android:layout_height="wrap_content" android:text="9" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button08" android:layout_height="wrap_content" android:includeFontPadding="true" android:text="8" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button07" android:layout_height="wrap_content" android:text="7" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button06" android:layout_height="wrap_content" android:text="+" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button05" android:layout_height="wrap_content" android:text="-" android:onClick="nhapSo"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button14" android:layout_height="wrap_content" android:text="6" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button13" android:layout_height="wrap_content" android:duplicateParentState="true" android:text="5" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button12" android:layout_height="wrap_content" android:duplicateParentState="true" android:cursorVisible="true" android:text="4" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button11" android:layout_height="wrap_content" android:text="*" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button10" android:layout_height="wrap_content" android:text="/" android:onClick="nhapSo"></Button>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button19" android:layout_height="wrap_content" android:text="3" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button18" android:layout_height="wrap_content" android:text="2" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button17" android:layout_height="wrap_content" android:text="1" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button16" android:layout_height="wrap_content" android:text="0" android:onClick="nhapSo"></Button>
+            <Button android:layout_width="64dp" android:textSize="22dp" android:id="@+id/Button15" android:layout_height="wrap_content" android:text="=" android:onClick="tinhToan"></Button>
+        </TableRow>
+    
+    </TableLayout>
+</LinearLayout>

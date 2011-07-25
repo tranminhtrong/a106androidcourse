@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/textView1" android:text="Channel title:" android:textSize="20dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/editText1">
+        <requestFocus></requestFocus>
+    </EditText>
+    <TextView android:layout_height="wrap_content" android:focusable="true" android:layout_width="wrap_content" android:id="@+id/textView2" android:text="Channel URL" android:textSize="20dp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/EditText01"></EditText>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:orientation="horizontal">
+        <Button android:layout_height="wrap_content" android:id="@+id/button2" android:layout_width="160dp" android:longClickable="true" android:text="Save"></Button>
+        <Button android:layout_height="match_parent" android:id="@+id/button1" android:layout_width="160dp" android:hapticFeedbackEnabled="true" android:text="Cancel"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

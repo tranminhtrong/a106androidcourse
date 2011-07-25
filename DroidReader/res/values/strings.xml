@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!-- Channels manager activity -->
+	
+	<string name="context_menu_title__add_new_channel">Add new channel</string>
+	<string name="context_menu_title__edit_channel">Edit channel</string>
+	<string name="context_menu_title__delete_channel">Delete channel</string>
+	<string name="context_menu_title__close_menu">Close</string>
+	
+	<string name="option_menu_title__add_new_channel">Add new channel</string>
+	<string name="option_menu_title__close_menu">Close</string>
+
+	<string name="feed_items_list_title">Channels manager</string>
+    <string name="channels_manager_title">Channels manager</string>
+    <string name="app_name">DroidReader</string>
+    <string name="feed_item_details_title">Feed details</string>
+    
+</resources>
